@@ -15,12 +15,21 @@ import "./index.css";
 
 const PageComponent = () => {
   return (
-    <ol>
-      <li>Reason 1</li>
-      <li>Reason 2</li>
-      <li>Reason 3</li>
-      <li>Reason 4</li>
-    </ol>
+    <div>
+      <header>
+        <img src="/src/assets/react.svg" alt="React Logo" />
+      </header>
+      <main>
+        <h1>Reasons I'm excited to learn React</h1>
+        <ol>
+          <li>Reason 1</li>
+          <li>Reason 2</li>
+          <li>Reason 3</li>
+          <li>Reason 4</li>
+        </ol>
+      </main>
+      <footer>© 2025 Acharya development. All rights reserved.</footer>
+    </div>
   );
 };
 

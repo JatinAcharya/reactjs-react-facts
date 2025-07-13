@@ -2,7 +2,7 @@ import React from "react";
 
 const MainContent = () => {
   return (
-    <main>
+    <main className="main-content-wrapper">
       <h1>Reasons I'm excited to learn React</h1>
       <ol>
         <li>Reason 1</li>

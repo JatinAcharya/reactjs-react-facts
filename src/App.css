@@ -1,6 +1,6 @@
 body{
   /* padding: 1.25rem; */
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Inter, sans-serif;
   background: #27292c;
   color: white;
 }
@@ -9,7 +9,7 @@ h1 {
   margin-top: 30px;
 }
 
-.header{
+/* .header{
   padding: 1.25rem;
   display: flex;
   justify-content: space-between;
@@ -37,4 +37,17 @@ h1 {
 .footer{
   padding: 1.25rem;
   background: black;
+} */
+
+.navigation-bar{
+  padding: 1.25rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background: #21222A;
+  color: #61DAFB;
+  border-bottom: 1px solid rgb(29, 29, 29);
+  box-shadow: rgb(26, 25, 25) 0px 1px 4px;
+  min-height: 4rem;
+  font-weight: 700;
 }
